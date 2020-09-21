@@ -17,12 +17,6 @@ df.describe()
 df.info()
 
 
-df.head()
-
-
-df.tail()
-
-
 df['ultimoPagamento'] = pd.to_datetime(df['ultimoPagamento'],format='get_ipython().run_line_magic("Y-%m-%d", " %H:%M', errors='coerce')")
 
 
